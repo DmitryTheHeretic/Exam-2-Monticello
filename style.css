@@ -274,9 +274,22 @@ li {
     margin-bottom: 230px;
 }
 
+.slick-dots {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: -25px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    max-width: 10px;
+}
+
 .site-hero .slick-dots{
     top: 50%;
-    left: 115%;
+    left: 100%;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -370,6 +383,7 @@ li {
     content: '';
     position: absolute;
     background-color: #55b7ff;
+    overflow: hidden;
     left: -215px;
     top: -70px;
     width: 585px;
